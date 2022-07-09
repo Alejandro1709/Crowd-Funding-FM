@@ -1,0 +1,18 @@
+.header {
+  height: 25rem;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, transparent 100%),
+    url('../../images/image-hero-desktop.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__nav ul {
+  display: flex;
+  gap: 4rem;
+}
