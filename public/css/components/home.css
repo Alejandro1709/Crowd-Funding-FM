@@ -1,0 +1,24 @@
+.main {
+  margin-top: -66px;
+}
+
+.main__head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #eee;
+  background-color: white;
+  position: relative;
+}
+
+.main__logo {
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+}
+
+.main__logo img {
+  position: absolute;
+  top: -30px;
+}
