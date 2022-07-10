@@ -37,3 +37,7 @@
   right: 146px;
   position: absolute;
 }
+
+.button--primary:disabled {
+  background-color: #ddd;
+}

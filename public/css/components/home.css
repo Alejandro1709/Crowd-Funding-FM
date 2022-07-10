@@ -12,6 +12,11 @@
   position: relative;
 }
 
+.main__about {
+  border: 1px solid #eee;
+  background-color: white;
+}
+
 .main__logo {
   display: flex;
   justify-content: center;
@@ -63,4 +68,34 @@
   background-color: var(--island-moment);
   flex: 0.6;
   border-radius: 25px;
+}
+
+.plans {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.plans__plan {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.plan__wrapper {
+  padding: 2rem;
+}
+
+.wrapper__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper__foot {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper__foot span {
+  display: flex;
+  gap: 0.6rem;
 }
