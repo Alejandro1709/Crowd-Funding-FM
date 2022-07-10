@@ -1,0 +1,39 @@
+.button {
+  padding: 1rem 2rem;
+  border-radius: 33px;
+  border: none;
+  background-color: #eee;
+}
+
+.button--primary {
+  font-weight: 700;
+  color: white;
+  background-color: var(--island-moment);
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.button--primary:hover {
+  background-color: var(--prismarine);
+}
+
+.button--secondary {
+  font-weight: 700;
+  color: var(--steel);
+  background-color: #eee;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.button--secondary:hover {
+  background-color: rgb(191, 191, 191);
+}
+
+.main__btn {
+  display: flex;
+}
+
+.main__btn #bookmark {
+  right: 146px;
+  position: absolute;
+}
